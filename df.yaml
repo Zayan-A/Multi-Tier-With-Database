@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: project/devshack:latest
+        image: za357627acc1/multitier2:latest
         ports:
         - containerPort: 8080
         env:
